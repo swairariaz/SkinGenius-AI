@@ -1,0 +1,67 @@
+﻿# Python
+venv/
+.venv/
+env/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.egg-info/
+*.egg
+dist/
+build/
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Data files
+*.db
+*.csv
+*.json
+*.h5
+*.pth
+*.pt
+*.bin
+*.npy
+*.npz
+*.joblib
+*.parquet
+*.feather
+
+# Dataset folders (CRUCIAL ADDITION)
+data/skin_images/  # Excludes HAM10000 dataset
+data/raw/
+data/processed/
+
+# Virtual environment files
+bin/
+include/
+lib/
+lib64/
+pyvenv.cfg
+pip-selfcheck.json
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs and outputs
+logs/
+output/
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# ML model files
+*.model
+*.weights
+*.onnx
+*.tflite
+*.mlmodel

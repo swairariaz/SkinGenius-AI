@@ -1,0 +1,8 @@
+services:
+  skincare_app:
+    build: .
+    ports:
+      - "8000:8000"  # FastAPI
+      - "8501:8501"  # Streamlit
+    restart: unless-stopped  # <-- for restart purpose if you get stuck
+    command: bash -c "uvicorn skincare_api.main:app --host 0.0.0.0 --port 8000 & streamlit run frontend/app.py"
