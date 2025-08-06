@@ -1,4 +1,4 @@
-﻿# Python
+# Python
 venv/
 .venv/
 env/
@@ -24,9 +24,6 @@ build/
 *.csv
 *.json
 *.h5
-*.pth
-*.pt
-*.bin
 *.npy
 *.npz
 *.joblib
